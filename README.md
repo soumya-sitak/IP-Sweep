@@ -20,7 +20,7 @@ Replace <IP_ADDRESS_PREFIX> with the first three octets of the IP address range 
 ```bash
 ./ipsweep.sh 192.168.1
 ```
---Note--: Make sure you have the necessary permissions to execute the script.
+**Note**: Make sure you have the necessary permissions to execute the script.
 
 # Description
 The IP Sweep script uses a for loop to iterate through each IP address in the specified range. It sends a single ICMP echo request (ping) to each IP address and checks for a successful response. The script captures the IP addresses of the live hosts and displays them on the terminal.
