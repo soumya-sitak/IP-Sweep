@@ -7,16 +7,19 @@ To use the script, ensure that you have the following requirements:
 - Linux or macOS operating system
 - Bash shell (version 4 or higher)
 - Ping utility
-Usage
+
+# Usage
 Follow the syntax below to run the script:
 
 ```bash
 ./ipsweep.sh <IP_ADDRESS_PREFIX>
-Replace <IP_ADDRESS_PREFIX> with the first three octets of the IP address range you want to scan. For example, if you want to scan the range 192.168.1.1 to ```192.168.1.254, you would run the script as follows:
+```
 
-bash
-Copy code
+Replace <IP_ADDRESS_PREFIX> with the first three octets of the IP address range you want to scan. For example, if you want to scan the range 192.168.1.1 to 192.168.1.254, you would run the script as follows:
+
+```bash
 ./ipsweep.sh 192.168.1
+```
 Note: Make sure you have the necessary permissions to execute the script.
 
 Description
